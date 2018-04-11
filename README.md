@@ -1,9 +1,9 @@
-# IFB TCC model
+# IFB Assignment model
 
 ## Live Preview:
   The live preview is available in the ShareLatex website (Might be a few minor version behind)
   
-  - IFBtcc : https://www.sharelatex.com/templates/5ab7b4a46004ddcd341b36ce
+  - IFBtcc : https://v2.overleaf.com/read/dxqnkvjryqff
 
 ## The Project
 
