@@ -1,9 +1,9 @@
-%% IFBthesis Latex Template - version 1.1
+%% IFBthesis Latex Template - version 1
 %%
 %% IFBthesis's latex template for thesis and dissertations
-%% https://github.com/IFBmodels/tcc
+%% https://github.com/auyer/IFBtcc
 %%
-%% (c) 2017 Rafael de Campos Passos (rafae@rcpassos.me)
+%% (c) 2017 Rafael de Campos Passos (rcpassos@ieee.org)
 %%
 %%
 %% This document was initially based on RiSE Latex template, from Yguaratã
@@ -196,7 +196,7 @@
   \gdef\@phdqualifying{Ph.D. Thesis Qualification}
   \gdef\@phdproposal{Ph.D. Proposal}
   \gdef\@phdthesis{Ph.D. Thesis}
-  \gdef\@acdassignment{Acadêmic Assignmnet}
+  \gdef\@acdassignment{Academic Assignmnet}
   \gdef\@pccthesis{Pre-Proposal}
   \gdef\@bachelordegree{Bachelor}
   \gdef\@mastersdegree{Master of Science}
