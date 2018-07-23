@@ -1,5 +1,5 @@
-%% IFB Assignment Latex Template Version 1.0, a fork of :
-%% 	RiSE Latex Template - version 0.5
+%% IFB Assignment Latex Template Version
+%%  , a fork of :	RiSE Latex Template - version
 %%
 %% IFB Assignment latex template for thesis and dissertations
 %% https://github.com/IFBmodels/assignment
@@ -65,100 +65,101 @@
 
 \documentclass[pt,oneside,onehalfspacing,acd]{ifbclass/ifbclass}
 
-\usepackage{colortbl}
-\usepackage{color}
-\usepackage[table]{xcolor}
-\usepackage{microtype}
-\usepackage{bibentry}
-\usepackage{subfigure}
-\usepackage{titlesec}
-\usepackage{multirow}
-\usepackage{rotating}
-\usepackage{booktabs}
-\usepackage{pdfpages}
-\usepackage{caption}
-\usepackage{lipsum}
-\usepackage{sectsty}
-\usepackage{pgfgantt}
-\renewcommand{\thesection}{\arabic{section}}
-
-%% Set the language used in your code in the block above
-
-\captionsetup[table]{position=top,justification=centering,width=.85\textwidth,labelfont=bf,font=footnotesize}
-\captionsetup[lstlisting]{position=top,justification=centering,width=.85\textwidth,labelfont=bf,font=footnotesize}
-\captionsetup[figure]{position=bottom,justification=centering,width=.85\textwidth,labelfont=bf,font=footnotesize}
-
-%% Chapter and (Sub)Section fonts must be same size as text (12)
-\sectionfont{\fontsize{12}{15}\selectfont}
-\subsectionfont{\fontsize{12}{15}\selectfont}
-\subsubsectionfont{\fontsize{12}{15}\selectfont}
-
-%% Change the following pdf author attribute name to your name.
-\usepackage[linkcolor=black,
-            citecolor=black,
-            urlcolor=black,
-            colorlinks,
-            pdfpagelabels,
-            pdftitle={Rise Thesis Template (ABNT)},
-            pdfauthor={Rise Thesis Template (ABNT)},
-            breaklinks=true]{hyperref}
-
-\address{BRASÍLIA}
-
-\universitypt{Instituto Federal de Brasília}
-\universityen{Federal Institute of Brasilia}
-
-\campus{Campus Taguatinga}
-
-
-%% IF in Academic Assignment Mode (ACD), Define a module:
-\module{Processamento de Imagnes}
-
-\programpt{Bacharelado em Ciência da Computação}
-\programen{Bachelors in Computer Science}
-
-\majorfieldpt{Ciência da Computação}
-\majorfielden{Computer Science}
-
-\title{Título do Trbalho }
-
-\date{2017}
-
-\author{Nome completo do Autor}
-\adviser{Nome completo do Orientador}
-\coadviser{Nome dompleto do co-orientador }
-
-% Macros (defines your own macros here, if needed)
-\def\x{\checkmark}
-%\let\lstlistoflistings\origlstoflistings
-\begin{document}
-
-\frontmatter
-
-\frontpage
-
-%% IF Document in English, uncoment the Abstract:
-%\abstract
-%{\parindent0pt
-%	\input{text/resumo}
-
-%% IF Document in Portuguese, uncoment the "Resumo":
-\resumo
-{\parindent0pt
-	\input{text/resumo}
-}
-% Summary (tables of contents)
-\tableofcontents
-
-\mainmatter
-
-\include{text/trabalho}
-
-% References
-
-\begin{references}
-  \bibliography{bib/references}
-\end{references}
-
-% Appendix
-\end{document}
+  \usepackage{colortbl}
+  \usepackage{color}
+  \usepackage[table]{xcolor}
+  \usepackage{microtype}
+  \usepackage{bibentry}
+  \usepackage{subfigure}
+  \usepackage{titlesec}
+  \usepackage{multirow}
+  \usepackage{rotating}
+  \usepackage{booktabs}
+  \usepackage{pdfpages}
+  \usepackage{caption}
+  \usepackage{lipsum}
+  \usepackage{sectsty}
+  \usepackage{pgfgantt}
+  \renewcommand{\thesection}{\arabic{section}}
+  
+  %% Set the language used in your code in the block above
+  
+  \captionsetup[table]{position=top,justification=centering,width=.85\textwidth,labelfont=bf,font=footnotesize}
+  \captionsetup[lstlisting]{position=top,justification=centering,width=.85\textwidth,labelfont=bf,font=footnotesize}
+  \captionsetup[figure]{position=bottom,justification=centering,width=.85\textwidth,labelfont=bf,font=footnotesize}
+  
+  %% Chapter and (Sub)Section fonts must be same size as text (12)
+  \sectionfont{\fontsize{12}{15}\selectfont}
+  \subsectionfont{\fontsize{12}{15}\selectfont}
+  \subsubsectionfont{\fontsize{12}{15}\selectfont}
+  
+  %% Change the following pdf author attribute name to your name.
+  \usepackage[linkcolor=black,
+              citecolor=black,
+              urlcolor=black,
+              colorlinks,
+              pdfpagelabels,
+              pdftitle={Rise Thesis Template (ABNT)},
+              pdfauthor={Rise Thesis Template (ABNT)},
+              breaklinks=true]{hyperref}
+  
+  \address{BRASÍLIA}
+  
+  \universitypt{Instituto Federal de Brasília}
+  \universityen{Federal Institute of Brasilia}
+  
+  \campus{Campus Taguatinga}
+  
+  
+  %% IF in Academic Assignment Mode (ACD), Define a module:
+  \module{Processamento de Imagnes}
+  
+  \programpt{Bacharelado em Ciência da Computação}
+  \programen{Bachelors in Computer Science}
+  
+  \majorfieldpt{Ciência da Computação}
+  \majorfielden{Computer Science}
+  
+  \title{Título do Trbalho }
+  
+  \date{2017}
+  
+  \author{Nome completo do Autor}
+  \adviser{Nome completo do Orientador}
+  \coadviser{Nome dompleto do co-orientador }
+  
+  % Macros (defines your own macros here, if needed)
+  \def\x{\checkmark}
+  %\let\lstlistoflistings\origlstoflistings
+  \begin{document}
+  
+  \frontmatter
+  
+  \frontpage
+  
+  %% IF Document in English, uncoment the Abstract:
+  %\abstract
+  %{\parindent0pt
+  %	\input{text/resumo}
+  
+  %% IF Document in Portuguese, uncoment the "Resumo":
+  \resumo
+  {\parindent0pt
+    \input{text/resumo}
+  }
+  % Summary (tables of contents)
+  \tableofcontents
+  
+  \mainmatter
+  
+  \include{text/trabalho}
+  
+  % References
+  
+  \begin{references}
+    \bibliography{bib/references}
+  \end{references}
+  
+  % Appendix
+  \end{document}
+  
