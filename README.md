@@ -4,6 +4,13 @@
   The live preview is available in the ShareLatex website (Might be a few minor version behind)
   
   - IFBtcc : https://v2.overleaf.com/read/dxqnkvjryqff
+  
+  ## How to propperly Download:
+
+You can download the latest release from the [Download Page](https://github.com/IFBmodels/tcc/releases/latest), or clone this repository recursively:
+
+    git clone  --recursive https://github.com/IFBmodels/assignment
+
 
 ## The Project
 
